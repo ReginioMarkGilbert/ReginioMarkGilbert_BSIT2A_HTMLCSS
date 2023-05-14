@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="styles.css">
+    <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+</head>
+<body>
+    <div class="mainbackground">
+        <nav>
+            <img src="images/Logo.png" class="logo">
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="secondpage.html">PORTFOLIO</a></li>
+                <li><a href="#skills">SKILLS</a></li>
+                <li><a href="#contacts">CONTACTS</a></li>
+            </ul>
+        </nav>
+
+        <section id="home">
+            <div class="intro">
+                <h4>Hello, World!</h4>
+                <h1>I'm Mark Gilbert  <span>Reginio</span></h1>
+                <h2>I'm into: </h2>
+                <div class="introposition">
+                    <h2>Front-end Development and UI/UX Design</h2>
+                </div>
+                <a class="Button stroke smoothscroll" href="#about" title="">More About Me</a>
+            </div>
+            <div class="images">
+                <img src="images/shape.png" class="shape">
+                <img src="images/MyProfilePic-removebg-preview.png" class="ProfilePic">
+            </div>
+        </section>
+        <div class="social">
+           <a href="https://www.facebook.com/Endzy.ML.1"><i class="fab fa-facebook"></i></a>
+           <a href="#"><i class="fab fa-instagram"></i></a>
+           <a href="https://github.com/TripleDB"><i class="fab fa-github"></i></a>
+        </div>
+    </div>
+    
+    <section id="about">  
+        <div class="row section-intro">
+ 
+            <h5>ABOUT</h5>
+            <div class="glitch">
+ 
+                Let me introduce myself.
+
+            </div>
+            <div class="intro-info">
+            
+                <img src="images/MainProfilePic.png" alt="Profile Picture">
+                
+                <p>Hello world! My name is Mark Gilbert Reginio, but you can call me Mark. My hobbies include playing chess, programming, cycling, and watching anime. I am currently a second-year college student at Marindique State University, studying Information Technology. I am currently learning web development, and I have been coding for 2 years now. The programming languages I currently know and use are Python and Autoit, both of which are scripting languages. What I love about programming is that you can automate almost anything.</p>
+                <p>"The code you write makes you a programmer. The code you delete makes you a good one." - Unknown</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="row section-skill">
+
+            <h5>SKILLS</h5>
+        <!--<div class="glitch">--><!-- MAKE THIS IN CSS INDIVIDUALLY BECAUSE IT RELIES ON THE .GLITCH-->
+            <div id="Description">
+                Here are the programming languages I currently know, along with their usage percentages. 
+            </div>
+        <!--</div>-->
+
+            <ul class="skill-bars">
+                <li>
+                <div class="progress percent90"><span>90%</span></div>
+                <strong>HTML5</strong>
+                </li>
+                <li>
+                <div class="progress percent85"><span>85%</span></div>
+                <strong>CSS3</strong>
+                </li>
+                <li>
+                <div class="progress percent70"><span>70%</span></div>
+                <strong>PHP</strong>
+                </li>
+                <li>
+                <div class="progress percent95"><span>95%</span></div>
+                <strong>AutoIt</strong>
+                </li>
+                <li>
+
+                <div class="progress percent75"><span>75%</span></div>
+                <strong>Python</strong>
+                </li>
+    
+            </ul> <!-- /skill-bars -->		
+
+        </div>
+    </section>
+
+    <section id="contacts">
+
+        <div class="row section-contacts" >
+            <a href="#"><i class="fa-brands fa-square-facebook fa-2x"></i>
+            <a href="https://github.com/TripleDB"><i class="fa-brands fa-github fa-2x"></i></a>
+            <a href="#"><i class="fa-brands fa-telegram fa-2x"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter fa-2x"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram fa-2x"  >  </i></a>
+        </div>
+
+    </section>
+
+    <footer>
+        <p>Copyright © 2023 Mark Tech Inc.</p>
+    </footer>
+
+</body>
+</html> 
